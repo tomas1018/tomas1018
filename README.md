@@ -27,7 +27,7 @@
 ### Data Engineering & Cloud
 ![Microsoft Fabric](https://img.shields.io/badge/Microsoft%20Fabric-0078D4?style=for-the-badge&logo=microsoft&logoColor=white)
 ![PySpark](https://img.shields.io/badge/PySpark-E25A1C?style=for-the-badge&logo=apache-spark&logoColor=white)
-![SSIS](https://img.shields.io/badge/SSIS%20%2F%20ETL-2560E0?style=for-the-badge&logo=microsoft&white)
+![SSIS](https://img.shields.io/badge/SSIS%20%2F%20ETL-2560E0?style=for-the-badge&logo=microsoft&logoColor=white)
 ![Data Warehouse](https://img.shields.io/badge/Data%20Warehouse-005C84?style=for-the-badge&logo=databricks&logoColor=white)
 
 ### Data Science & AI
@@ -48,7 +48,7 @@
 ## Actividad Reciente 📈
 
 <div align="center">
-  <img src="https://raw.githubusercontent.com/tomas1018/tomas1018/main/github-activity-graph.svg" alt="Activity Graph" width="90%" />
+  <img src="https://raw.githubusercontent.com/tomas1018/tomas1018/main/github-activity%20graph.svg" alt="Activity Graph" width="90%" />
 </div>
 
 ---
