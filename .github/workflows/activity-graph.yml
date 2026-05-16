@@ -1,0 +1,47 @@
+name: Generate Activity Graph
+
+on:
+  # Corre automáticamente cada 12 horas (a las 00:00 y a las 12:00 UTC)
+  schedule:
+    - cron: "0 */12 * * *"
+  
+  # Te permite ejecutarlo manualmente cuando quieras
+  workflow_dispatch:
+  
+  # Corre si hacés cambios en la rama principal
+  push:
+    branches:
+      - main
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    name: generate-activity-graph
+    
+    permissions:
+      contents: write
+      
+    env:
+      FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: "true"
+      
+    steps:
+      - uses: actions/checkout@v4
+      
+      # Usamos el generador oficial de la comunidad para guardarlo local
+      - uses: ashutosh00710/github-readme-activity-graph@master
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          TARGET_USER: ${{ github.repository_owner }}
+          THEME: tokyonight
+          ANIMATE: true
+          AREA: true
+          
+      # Sincroniza y sube el archivo generado a tu repositorio
+      - name: Commit & Push Changes
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          git add -A .
+          git commit -m "Generated Updated Activity Graph" || exit 0
+          git pull --rebase origin main
+          git push origin main
