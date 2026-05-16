@@ -48,7 +48,7 @@
 ## Actividad Reciente 📈
 
 <div align="center">
-  <object type="image/svg+xml" data="github-activity-graph.svg" width="90%"></object>
+  <img src="github-activity-graph.svg" alt="Activity Graph" width="90%" />
 </div>
 
 ---
