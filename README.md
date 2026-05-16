@@ -45,6 +45,14 @@
 
 ---
 
+## Actividad Reciente 📈
+
+<div align="center">
+  <img src="https://github-readme-activity-graph.vercel.io/graph?username=tomas1018&theme=tokyonight&area=true" alt="Activity Graph" width="90%" />
+</div>
+
+---
+
 <div align="center">
 
 ### Contacto 📫
@@ -52,13 +60,4 @@
 [![Gmail](https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:tomasfernando61@gmail.com)
 
 ¡Muchas gracias por visitar mi perfil! 😊
-
----
 </div>
-
-## Actividad en GitHub 📊
-
-<div align="center">
-  <img src="https://raw.githubusercontent.com/tomas1018/tomas1018/main/profile-3d-contrib/profile-night-view.svg" alt="Calendario Isométrico 3D" width="85%" />
-</div>
-
