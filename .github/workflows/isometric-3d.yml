@@ -16,12 +16,10 @@ jobs:
     permissions:
       contents: write
       
-    # Forzamos al entorno a aceptar las acciones en Node 24 para evitar advertencias
     env:
       FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: "true"
       
     steps:
-      # Actualizado a v4 para soportar entornos modernos
       - uses: actions/checkout@v4
       
       - uses: yoshi389111/github-profile-3d-contrib@0.7.1
@@ -29,10 +27,12 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           USERNAME: ${{ github.repository_owner }}
           
+      # Bloque corregido con el pull automático para evitar rechazos
       - name: Commit & Push Changes
         run: |
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
           git add -A .
           git commit -m "Generated 3D Isometric Calendar" || exit 0
-          git push
+          git pull --rebase origin main
+          git push origin main
