@@ -11,7 +11,7 @@
 
 - 🎓 **Formación:** Estudiante avanzado de la carrera de **Inteligencia Artificial** en la Universidad Nacional de Rosario (UNR).
 - 🛠️ **Especialización:** Diseño de arquitecturas **Lakehouse**, modelado de datos distribuidos, automatización de flujos ETL/ELT y soluciones de analítica avanzada.
-- 💡 **Enfoque:** Combinar el rigor analítico y metodológico con la automatización cloud para estructurar soluciones de datos escalables de negocio.
+- 💡 **Enfoque:** Combinar el rigor analítico y metodológico con la automatización cloud para actuar sobre soluciones de datos escalables de negocio.
 - 👥 **Soft Skills:** Experiencia consolidada en auditoría de procesos técnicos, gestión operativa bajo normas rigurosas y liderazgo de equipos.
 
 ---
@@ -27,7 +27,7 @@
 ### Data Engineering & Cloud
 ![Microsoft Fabric](https://img.shields.io/badge/Microsoft%20Fabric-0078D4?style=for-the-badge&logo=microsoft&logoColor=white)
 ![PySpark](https://img.shields.io/badge/PySpark-E25A1C?style=for-the-badge&logo=apache-spark&logoColor=white)
-![SSIS](https://img.shields.io/badge/SSIS%20%2F%20ETL-2560E0?style=for-the-badge&logo=microsoft&white)
+![SSIS](https://img.shields.io/badge/SSIS%20%2F%20ETL-2560E0?style=for-the-badge&logo=microsoft&logoColor=white)
 ![Data Warehouse](https://img.shields.io/badge/Data%20Warehouse-005C84?style=for-the-badge&logo=databricks&logoColor=white)
 
 ### Data Science & AI
@@ -45,10 +45,10 @@
 
 ---
 
-## Actividad Reciente 📈
+## Actividad en GitHub 🐍
 
 <div align="center">
-  <img src="https://github-readme-activity-graph.vercel.io/graph?username=tomas1018&theme=tokyonight&area=true" alt="Activity Graph" width="90%" />
+  <img src="https://raw.githubusercontent.com/tomas1018/tomas1018/output/github-contribution-grid-snake-dark.svg" alt="Snake Animation" width="100%" />
 </div>
 
 ---
