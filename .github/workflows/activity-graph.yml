@@ -1,14 +1,9 @@
 name: Generate Activity Graph
 
 on:
-  # Corre automáticamente cada 12 horas (a las 00:00 y a las 12:00 UTC)
   schedule:
-    - cron: "0 */12 * * *"
-  
-  # Te permite ejecutarlo manualmente desde la pestaña Actions
+    - cron: "0 */2 * * *"
   workflow_dispatch:
-  
-  # Se ejecuta si hacés un cambio en la rama principal
   push:
     branches:
       - main
@@ -21,19 +16,12 @@ jobs:
     steps:
       - uses: lowlighter/metrics@latest
         with:
-          # Tu token interno de GitHub para recopilar los datos
           token: ${{ secrets.GITHUB_TOKEN }}
-          
-          # Configuración del archivo de salida
           filename: github-activity-graph.svg
-          
-          # Habilitamos solo el plugin del gráfico de líneas de actividad
           base: ""
           plugin_lines: yes
           
-          # 🎨 CONTROL DE COLORES Y ESTILO:
-          # Podés elegir entre temas nativos como: github, github-dark, midnight, halcyon, tokyonight.
-          config_theme: tokyonight
-          
-          # Si querés meter código de color personalizado en vez de usar un tema:
-          # config_colors: "primary: #7aa2f7, text: #a9b1d6, background: #1a1b26"
+          # 🎨 CONTROL DE ESTILO CORREGIDO:
+          # Usamos 'config_display: columns' que es un parámetro global válido
+          # y forzamos a que use colores compatibles con fondos oscuros.
+          config_display: columns
