@@ -48,8 +48,9 @@
 ## Actividad Reciente 📈
 
 <div align="center">
-  <img src="https://raw.githubusercontent.com/tomas1018/tomas1018/main/github-activity-graph.svg?v=1" alt="Activity Graph" width="90%" />
+  <object type="image/svg+xml" data="github-activity-graph.svg" width="90%"></object>
 </div>
+
 ---
 
 <div align="center">
