@@ -45,14 +45,6 @@
 
 ---
 
-## Actividad en GitHub 📊
-
-<div align="center">
-  <img src="https://raw.githubusercontent.com/tomas1018/tomas1018/main/profile-3d-contrib/profile-night-view.svg" alt="Calendario Isométrico 3D" width="85%" />
-</div>
-
----
-
 <div align="center">
 
 ### Contacto 📫
@@ -61,3 +53,11 @@
 
 ¡Muchas gracias por visitar mi perfil! 😊
 </div>
+---
+
+## Actividad en GitHub 📊
+
+<div >
+  <img src="https://raw.githubusercontent.com/tomas1018/tomas1018/main/profile-3d-contrib/profile-night-view.svg" alt="Calendario Isométrico 3D" width="85%" />
+</div>
+
