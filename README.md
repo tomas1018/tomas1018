@@ -1,10 +1,8 @@
 <div align="center">
-  <img src="https://raw.githubusercontent.com/tomas1018/tomas1018/main/profile-3d-contrib/profile-night-view.svg" alt="Calendario Isométrico 3D" />
-</div>
-<div align="center">
 
-# ¡Hola! Soy Tomás Hereñú
+# ¡Hola! Soy Tomás Hereñú 👋
 ### Data Engineer | Advanced AI Student @ UNR
+
 </div>
 
 ---
@@ -29,7 +27,7 @@
 ### Data Engineering & Cloud
 ![Microsoft Fabric](https://img.shields.io/badge/Microsoft%20Fabric-0078D4?style=for-the-badge&logo=microsoft&logoColor=white)
 ![PySpark](https://img.shields.io/badge/PySpark-E25A1C?style=for-the-badge&logo=apache-spark&logoColor=white)
-![SSIS](https://img.shields.io/badge/SSIS%20%2F%20ETL-2560E0?style=for-the-badge&logo=microsoft&logoColor=white)
+![SSIS](https://img.shields.io/badge/SSIS%20%2F%20ETL-2560E0?style=for-the-badge&logo=microsoft&white)
 ![Data Warehouse](https://img.shields.io/badge/Data%20Warehouse-005C84?style=for-the-badge&logo=databricks&logoColor=white)
 
 ### Data Science & AI
@@ -44,6 +42,14 @@
 ![PowerBI](https://img.shields.io/badge/PowerBI-F2C811?style=for-the-badge&logo=power-bi&logoColor=black)
 ![Docker](https://img.shields.io/badge/docker-%230db7ed.svg?style=for-the-badge&logo=docker&logoColor=white)
 ![Git](https://img.shields.io/badge/git-%23F05033.svg?style=for-the-badge&logo=git&logoColor=white)
+
+---
+
+## Actividad en GitHub 📊
+
+<div align="center">
+  <img src="https://raw.githubusercontent.com/tomas1018/tomas1018/main/profile-3d-contrib/profile-night-view.svg" alt="Calendario Isométrico 3D" width="85%" />
+</div>
 
 ---
 
