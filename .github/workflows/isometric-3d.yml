@@ -1,0 +1,35 @@
+name: Generate Isometric 3D Calendar
+
+on:
+  # Corre automáticamente todas las noches
+  schedule:
+    - cron: "0 0 * * *"
+  
+  # Te permite ejecutarlo a mano cuando quieras
+  workflow_dispatch:
+  
+  # Se ejecuta si hacés cambios en la rama principal
+  push:
+    branches:
+      - main
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    name: generate-github-profile-3d-contrib
+    steps:
+      - uses: actions/checkout@v3
+      
+      # Acción encargada de construir los bloques isométricos
+      - uses: yoshi389111/github-profile-3d-contrib@0.7.1
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          USERNAME: ${{ github.repository_owner }}
+          
+      - name: Commit & Push Changes
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          git add -A .
+          git commit -m "Generated 3D Isometric Calendar" || exit 0
+          git push
