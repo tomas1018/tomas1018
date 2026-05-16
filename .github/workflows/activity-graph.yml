@@ -5,43 +5,35 @@ on:
   schedule:
     - cron: "0 */12 * * *"
   
-  # Te permite ejecutarlo manualmente cuando quieras
+  # Te permite ejecutarlo manualmente desde la pestaña Actions
   workflow_dispatch:
   
-  # Corre si hacés cambios en la rama principal
+  # Se ejecuta si hacés un cambio en la rama principal
   push:
     branches:
       - main
 
 jobs:
-  build:
+  github-metrics:
     runs-on: ubuntu-latest
-    name: generate-activity-graph
-    
     permissions:
       contents: write
-      
-    env:
-      FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: "true"
-      
     steps:
-      - uses: actions/checkout@v4
-      
-      # Usamos el generador oficial de la comunidad para guardarlo local
-      - uses: ashutosh00710/github-readme-activity-graph@master
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          TARGET_USER: ${{ github.repository_owner }}
-          THEME: tokyonight
-          ANIMATE: true
-          AREA: true
+      - uses: lowlighter/metrics@latest
+        with:
+          # Tu token interno de GitHub para recopilar los datos
+          token: ${{ secrets.GITHUB_TOKEN }}
           
-      # Sincroniza y sube el archivo generado a tu repositorio
-      - name: Commit & Push Changes
-        run: |
-          git config --local user.email "action@github.com"
-          git config --local user.name "GitHub Action"
-          git add -A .
-          git commit -m "Generated Updated Activity Graph" || exit 0
-          git pull --rebase origin main
-          git push origin main
+          # Configuración del archivo de salida
+          filename: github-activity-graph.svg
+          
+          # Habilitamos solo el plugin del gráfico de líneas de actividad
+          base: ""
+          plugin_lines: yes
+          
+          # 🎨 CONTROL DE COLORES Y ESTILO:
+          # Podés elegir entre temas nativos como: github, github-dark, midnight, halcyon, tokyonight.
+          config_theme: tokyonight
+          
+          # Si querés meter código de color personalizado en vez de usar un tema:
+          # config_colors: "primary: #7aa2f7, text: #a9b1d6, background: #1a1b26"
