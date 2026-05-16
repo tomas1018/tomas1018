@@ -48,7 +48,7 @@
 ## Actividad Reciente 📈
 
 <div align="center">
-  <img src="https://github-readme-activity-graph.vercel.io/graph?username=tomas1018&theme=tokyonight&area=true" alt="Activity Graph" width="90%" />
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=tomas1018&theme=tokyonight&area=true" alt="Activity Graph" width="90%" />
 </div>
 
 ---
