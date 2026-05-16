@@ -58,6 +58,7 @@
 ### Contacto 📫
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/tomas-herenu/)
 [![Gmail](https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:tomasfernando61@gmail.com)
+[![CV](https://img.shields.io/badge/Descargar-CV_PDF-2560E0?style=for-the-badge&logo=adobe-acrobat-reader&logoColor=white)](https://raw.githubusercontent.com/tomas1018/tomas1018/main/Tomas-Hereñu-cv.pdf)
 
 ¡Muchas gracias por visitar mi perfil! 😊
 </div>
