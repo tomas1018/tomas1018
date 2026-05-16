@@ -48,7 +48,7 @@
 ## Actividad Reciente 📈
 
 <div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=tomas1018&show_icons=true&theme=tokyonight&hide_border=true&count_private=true" alt="Estadísticas de GitHub" width="85%" />
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=tomas1018&theme=tokyonight&area=true" alt="Activity Graph" width="90%" />
 </div>
 
 ---
