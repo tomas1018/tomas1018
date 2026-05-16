@@ -52,8 +52,9 @@
 [![Gmail](https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:tomasfernando61@gmail.com)
 
 ¡Muchas gracias por visitar mi perfil! 😊
-</div>
+
 ---
+</div>
 
 ## Actividad en GitHub 📊
 
