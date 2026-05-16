@@ -1,6 +1,6 @@
 <div align="center">
 
-# ¡Hola! Soy Tomás Hereñú 👋
+# ¡Hola! Soy Tomás Hereñú
 ### Data Engineer | Advanced AI Student @ UNR
 </div>
 
