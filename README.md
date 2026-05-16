@@ -57,7 +57,7 @@
 
 ## Actividad en GitHub 📊
 
-<div >
+<div align="center">
   <img src="https://raw.githubusercontent.com/tomas1018/tomas1018/main/profile-3d-contrib/profile-night-view.svg" alt="Calendario Isométrico 3D" width="85%" />
 </div>
 
