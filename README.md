@@ -6,7 +6,9 @@
 </div>
 
 <div align="center">
+  
 ---
+  
 # ¡Hola! Soy Tomás Hereñú 👋
 ### Data Engineer | Advanced AI Student @ UNR
 
