@@ -1,5 +1,12 @@
-<div align="center">
 
+## Actividad Reciente 📈
+
+<div align="center">
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=tomas1018&theme=tokyo-night&area=true&hide_border=true" alt="Activity Graph" width="90%" />
+</div>
+
+<div align="center">
+---
 # ¡Hola! Soy Tomás Hereñú 👋
 ### Data Engineer | Advanced AI Student @ UNR
 
@@ -42,14 +49,6 @@
 ![PowerBI](https://img.shields.io/badge/PowerBI-F2C811?style=for-the-badge&logo=power-bi&logoColor=black)
 ![Docker](https://img.shields.io/badge/docker-%230db7ed.svg?style=for-the-badge&logo=docker&logoColor=white)
 ![Git](https://img.shields.io/badge/git-%23F05033.svg?style=for-the-badge&logo=git&logoColor=white)
-
----
-
-## Actividad Reciente 📈
-
-<div align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=tomas1018&theme=tokyo-night&area=true&hide_border=true" alt="Activity Graph" width="90%" />
-</div>
 
 ---
 
